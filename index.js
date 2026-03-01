@@ -6,7 +6,7 @@ const User = require('./User')
 const app = express();
 
 app.use(cors({
-	origin: ['https://test-server-front.vercel.app/', 'http://localhost:5500']
+	origin: ['https://test-server-front.vercel.app', 'http://localhost:5500']
 }));
 app.use(express.json())
 
