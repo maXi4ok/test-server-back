@@ -10,7 +10,7 @@ app.use(cors({
 }));
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://maxi4okdev_db_user:<db_password>@users.vbsgbag.mongodb.net/')
+mongoose.connect('mongodb+srv://maxi4okdev_db_user:maxi4okdev@users.vbsgbag.mongodb.net/')
 	.then(() => { console.log('connected') })
 	.catch(e => console.error(e))
 
